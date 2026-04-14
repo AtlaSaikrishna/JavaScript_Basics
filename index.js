@@ -71,10 +71,28 @@
 
 
 //Arrow Functions => =>
-    let name = "krishna"
-    let age = 21
+    // let name = "krishna"
+    // let age = 21
 
-    console.log("My name is "+name+". my age is "+age);
-    console.log(`My name is ${name}. my age is ${age}`);
+    // console.log("My name is "+name+". my age is "+age);
+    // console.log(`My name is ${name}. my age is ${age}`);
+    
+
+
+//DOM
+    // console.log(document.body);
+
+    // let h = document.getElementById('h');
+    // console.log(h)
+    
+    // console.log(h.innerText);
+    // h.innerHTML = '<b>Hello</b>'
+
+    let boxes = document.getElementsByClassName("box")
+    let para = document.getElementsByClassName("para")
+
+    boxes[1].innerHTML = 'bye'
+    para[0].innerHTML = "hello......"
+    
     
     
